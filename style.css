@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    background-color: #0C2936;
+    color: white;
+}
+
+#container{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(5, 74, 153, 0.3);
+    border-radius: 10px;
+}
+
+form input{
+    display: block;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+#login{
+    margin-top: 100px;
+    height: 30px;
+    width: 60%;
+    background-image: url(imagens/login.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 8%;
+    text-indent: 30px;
+}
+
+#senha{
+    margin-top: 10px;
+    width: 60%;
+    height: 30px;
+    background-image: url(imagens/cadeado.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-indent: 30px;
+    background-size: 8%;
+}
+
+#entrar{
+    margin-top: 10px;
+    width: 60%;
+    height: 40px;
+    background-color: #3BB9DB;
+    border: 1.5px solid #206375;
+
+}
+
+#entrar:hover{
+    color: white;
+    cursor:pointer;
+}
+
+p{
+    margin: 20px;
+    text-align: center;
+}
+
+a{
+    color: #FAB627;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FF9138;
+}
+
+#img{
+    width: 30%;
+    position: absolute;
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
